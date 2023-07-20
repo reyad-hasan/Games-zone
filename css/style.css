@@ -29,7 +29,7 @@ header {
     height: 40px;
 }
 
-.logo .logo-color{
+.logo .logo-color {
     color: #FF42A5;
 }
 
@@ -55,7 +55,122 @@ nav ul li a {
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 25px;
 }
-.active-btn .youtube-icon{
+
+.active-btn .youtube-icon {
     padding: 0px 10px;
     color: #F61C0D;
 }
+
+/* play like section start */
+.play-like-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px;
+}
+
+.play-like-content-left {
+    background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 217px 0px;
+}
+
+.play-like-content-left h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.play-like-content-left h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-like-content-left p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-bottom: 5px;
+}
+
+.play-like-content-left .icon-styles {
+    color: red;
+    padding-right: 12px;
+}
+
+.play-like-content-right {
+    width: 50%;
+}
+
+.play-like-content-right img {
+    width: 100%;
+    height: auto;
+}
+
+/* play like section end */
+/* online games section start */
+.online-games-section {
+    padding: 50px 250px;
+}
+
+.online-games-section h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-games-section .game-title-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-section p {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.online-main-games-container {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.games-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.games-container .card {
+    flex: 1;
+    margin: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.games-container .card:hover {
+    border: 3px solid #AA53DE;
+}
+
+/* online games section end */
