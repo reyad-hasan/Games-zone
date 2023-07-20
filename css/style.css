@@ -120,7 +120,7 @@ nav ul li a {
 /* play like section end */
 /* online games section start */
 .online-games-section {
-    padding: 50px 250px;
+    padding: 0px 250px;
 }
 
 .online-games-section h1 {
@@ -174,3 +174,69 @@ nav ul li a {
 }
 
 /* online games section end */
+/* play games anywhere section start */
+.play-anywhere-section {
+    border: 1px solid rebeccapurple;
+    min-height: 700px;
+    padding: 60px 250px;
+}
+
+.play-anywhere-container {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-anywhere-left {
+    width: 50%;
+    border: 1px solid salmon;
+    position: relative;
+}
+
+.play-anywhere-left img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.play-anywhere-left .position-img {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+.play-anywhere-left .position-img img {
+    height: 250px;
+    width: 200px;
+}
+
+.play-anywhere-right {
+    width: 50%;
+    border: 1px solid blue;
+}
+
+.play-anywhere-right h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.play-anywhere-right .anywhere-right-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-anywhere-right p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+/* play games anywhere section end */
