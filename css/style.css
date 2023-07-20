@@ -236,3 +236,40 @@ nav ul li a {
 }
 
 /* play games anywhere section end */
+/* games name section start */
+.games-name-section {
+    min-height: 300px;
+    padding: 60px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-name-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.games-name-section .game-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding: 6px 10px;
+    border-radius: 40px;
+    border: 2px solid #FFF;
+}
+.games-name-section .game-card:hover{
+    border: 2px solid #D16FD7;
+}
+
+.games-name-section .game-card p {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* games name section end */
