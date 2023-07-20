@@ -68,6 +68,19 @@
         padding: 50px 100px;
     }
 
+    .footer-section {
+        padding: 0 100px;
+    }
+
+    .our-terms-condition {
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    .our-terms-condition h3 {
+        font-size: 0.9rem;
+    }
+
 }
 
 /* responsive 1024px to 1440px end */
@@ -159,6 +172,21 @@
         padding: 50px 100px;
     }
 
+    .footer-section {
+        padding: 0 100px;
+    }
+
+    .our-services-container {
+        column-gap: 25px;
+    }
+
+    .footer-icon-link {
+        padding-top: 20px;
+    }
+
+    .our-terms-condition {
+        /* padding-bottom: 30px; */
+    }
 }
 
 /* responsive 768px to 1024px end */
@@ -265,6 +293,56 @@
     .games-name-section {
         padding: 50px;
     }
+
+    .footer-section {
+        padding: 50px;
+    }
+
+    .our-services-container {
+        column-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .our-terms-condition {
+        /* padding-bottom: 30px; */
+    }
+
+    .our-services-container h3 {
+        padding: 8px 0px;
+    }
+
+    .footer-icon-link {
+        column-gap: 90px;
+        row-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+
+    .our-terms-condition {
+        column-gap: 0px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .our-terms-condition h3 {
+        padding: 10px 0px;
+    }
+
+    .copy-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 13px;
+        padding-top: 20px;
+    }
+
 }
 
 /* responsive max-width 424px end */
